@@ -88,7 +88,7 @@
   },
   "variables": {
     "adAssetLocation": "https://raw.githubusercontent.com/Azure/AzureStack-QuickStart-Templates/master/ad-non-ha",
-    "adVMSize": "Standard_A1",
+    "adVMSize": "Standard_B1S",
     "adVnetName": "[concat('ADVNET',resourceGroup().name)]",
     "adSubnetName": "[concat('ADStaticSubnet',resourceGroup().name)]",
     "staticSubnetID": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('adVnetName'), variables('adSubnetName'))]",
