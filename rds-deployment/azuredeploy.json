@@ -69,7 +69,9 @@
         "Standard_D2",
         "Standard_D3",
         "Standard_D4",
-        "Standard_D5"
+        "Standard_D5",
+        "Standard_B1S",
+        "Standard_B2S"
       ],
       "metadata": {
         "description": "The size of the RDSH VMs"
